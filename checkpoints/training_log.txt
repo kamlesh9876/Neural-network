@@ -621,3 +621,114 @@ Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.np
 [2025-12-15 03:13:19] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
 [2025-12-15 03:13:19] 
 Training completed successfully!
+[2025-12-15 03:51:51] 
+======================================================================
+[2025-12-15 03:51:51] Starting Neural Network Training
+[2025-12-15 03:51:51] ======================================================================
+[2025-12-15 03:51:51] Training samples: 60,000
+[2025-12-15 03:51:51] Test samples: 10,000
+[2025-12-15 03:51:51] Network architecture: 784-64-32-10
+[2025-12-15 03:51:51] Learning rate: 0.001, Optimizer: adam
+[2025-12-15 03:51:51] Batch size: 128, Dropout: 0.2
+[2025-12-15 03:51:51] Batch norm: Enabled
+[2025-12-15 03:53:01] 
+======================================================================
+[2025-12-15 03:53:01] Starting Neural Network Training
+[2025-12-15 03:53:01] ======================================================================
+[2025-12-15 03:53:01] Training samples: 60,000
+[2025-12-15 03:53:01] Test samples: 10,000
+[2025-12-15 03:53:01] Network architecture: 784-64-32-10
+[2025-12-15 03:53:01] Learning rate: 0.001, Optimizer: adam
+[2025-12-15 03:53:01] Batch size: 128, Dropout: 0.2
+[2025-12-15 03:53:01] Batch norm: Enabled
+[2025-12-15 03:54:06] 
+======================================================================
+[2025-12-15 03:54:06] Starting Neural Network Training
+[2025-12-15 03:54:06] ======================================================================
+[2025-12-15 03:54:06] Training samples: 60,000
+[2025-12-15 03:54:06] Test samples: 10,000
+[2025-12-15 03:54:06] Network architecture: 784-64-32-10
+[2025-12-15 03:54:06] Learning rate: 0.001, Optimizer: adam
+[2025-12-15 03:54:06] Batch size: 128, Dropout: 0.2
+[2025-12-15 03:54:06] Batch norm: Enabled
+[2025-12-15 03:54:52] 
+======================================================================
+[2025-12-15 03:54:52] Starting Neural Network Training
+[2025-12-15 03:54:52] ======================================================================
+[2025-12-15 03:54:52] Training samples: 60,000
+[2025-12-15 03:54:52] Test samples: 10,000
+[2025-12-15 03:54:52] Network architecture: 784-64-32-10
+[2025-12-15 03:54:52] Learning rate: 0.001, Optimizer: adam
+[2025-12-15 03:54:52] Batch size: 128, Dropout: 0.2
+[2025-12-15 03:54:52] Batch norm: Disabled
+[2025-12-15 03:55:08] Epoch    5 | Train Acc:  97.00% | Test Acc:  96.70% | Loss: 0.2008 | Time: 2.85s
+[2025-12-15 03:55:08] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0005.npz
+[2025-12-15 03:55:24] Epoch   10 | Train Acc:  97.80% | Test Acc:  96.70% | Loss: 0.1618 | Time: 2.76s
+[2025-12-15 03:55:24] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0010.npz
+[2025-12-15 03:55:40] Epoch   15 | Train Acc:  98.10% | Test Acc:  96.20% | Loss: 0.1502 | Time: 3.04s
+[2025-12-15 03:55:40] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0015.npz
+[2025-12-15 03:55:56] Epoch   20 | Train Acc:  98.00% | Test Acc:  97.60% | Loss: 0.1443 | Time: 3.14s
+[2025-12-15 03:55:56] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0020.npz
+[2025-12-15 03:56:10] Epoch   25 | Train Acc:  97.90% | Test Acc:  96.40% | Loss: 0.1452 | Time: 3.11s
+[2025-12-15 03:56:10] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0025.npz
+[2025-12-15 03:56:25] Epoch   30 | Train Acc:  98.90% | Test Acc:  96.30% | Loss: 0.1470 | Time: 3.26s
+[2025-12-15 03:56:25] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0030.npz
+[2025-12-15 03:56:28] Training plot saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\training_visualization\training_history_30.png
+[2025-12-15 03:56:43] Epoch   35 | Train Acc:  97.90% | Test Acc:  97.40% | Loss: 0.1550 | Time: 2.84s
+[2025-12-15 03:56:43] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0035.npz
+[2025-12-15 03:56:57] Epoch   40 | Train Acc:  98.20% | Test Acc:  97.10% | Loss: 0.1617 | Time: 2.82s
+[2025-12-15 03:56:57] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0040.npz
+[2025-12-15 03:57:12] Epoch   45 | Train Acc:  97.20% | Test Acc:  96.20% | Loss: 0.1702 | Time: 3.22s
+[2025-12-15 03:57:13] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0045.npz
+[2025-12-15 03:57:27] Epoch   50 | Train Acc:  96.60% | Test Acc:  97.40% | Loss: 0.1733 | Time: 2.78s
+[2025-12-15 03:57:27] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0050.npz
+[2025-12-15 03:57:44] Epoch   55 | Train Acc:  97.70% | Test Acc:  97.00% | Loss: 0.1731 | Time: 2.74s
+[2025-12-15 03:57:44] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0055.npz
+[2025-12-15 03:57:58] Epoch   60 | Train Acc:  98.10% | Test Acc:  96.30% | Loss: 0.1848 | Time: 2.90s
+[2025-12-15 03:57:58] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0060.npz
+[2025-12-15 03:58:00] Training plot saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\training_visualization\training_history_60.png
+[2025-12-15 03:58:14] Epoch   65 | Train Acc:  97.50% | Test Acc:  95.40% | Loss: 0.1876 | Time: 2.82s
+[2025-12-15 03:58:14] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0065.npz
+[2025-12-15 03:58:28] Epoch   70 | Train Acc:  97.80% | Test Acc:  96.10% | Loss: 0.2014 | Time: 2.77s
+[2025-12-15 03:58:28] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0070.npz
+[2025-12-15 03:58:43] Epoch   75 | Train Acc:  97.70% | Test Acc:  95.60% | Loss: 0.2064 | Time: 3.03s
+[2025-12-15 03:58:43] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0075.npz
+[2025-12-15 03:58:57] Epoch   80 | Train Acc:  97.40% | Test Acc:  96.30% | Loss: 0.2202 | Time: 2.96s
+[2025-12-15 03:58:57] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0080.npz
+[2025-12-15 03:59:11] Epoch   85 | Train Acc:  96.60% | Test Acc:  96.20% | Loss: 0.2188 | Time: 2.70s
+[2025-12-15 03:59:11] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0085.npz
+[2025-12-15 03:59:26] Epoch   90 | Train Acc:  97.30% | Test Acc:  95.30% | Loss: 0.2315 | Time: 2.75s
+[2025-12-15 03:59:26] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0090.npz
+[2025-12-15 03:59:27] Training plot saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\training_visualization\training_history_90.png
+[2025-12-15 03:59:41] Epoch   95 | Train Acc:  97.10% | Test Acc:  95.40% | Loss: 0.2301 | Time: 2.73s
+[2025-12-15 03:59:41] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0095.npz
+[2025-12-15 03:59:56] Epoch  100 | Train Acc:  96.60% | Test Acc:  96.10% | Loss: 0.2417 | Time: 2.74s
+[2025-12-15 03:59:56] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0100.npz
+[2025-12-15 04:00:10] Epoch  105 | Train Acc:  96.30% | Test Acc:  95.50% | Loss: 0.2419 | Time: 2.79s
+[2025-12-15 04:00:10] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0105.npz
+[2025-12-15 04:00:26] Epoch  110 | Train Acc:  96.30% | Test Acc:  93.70% | Loss: 0.2553 | Time: 2.95s
+[2025-12-15 04:00:26] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0110.npz
+[2025-12-15 04:00:42] Epoch  115 | Train Acc:  96.30% | Test Acc:  95.60% | Loss: 0.2777 | Time: 3.21s
+[2025-12-15 04:00:42] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0115.npz
+[2025-12-15 04:00:56] Epoch  120 | Train Acc:  96.40% | Test Acc:  94.50% | Loss: 0.2673 | Time: 2.88s
+[2025-12-15 04:00:56] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0120.npz
+[2025-12-15 04:00:58] Training plot saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\training_visualization\training_history_120.png
+[2025-12-15 04:01:11] Epoch  125 | Train Acc:  95.10% | Test Acc:  94.50% | Loss: 0.2804 | Time: 2.70s
+[2025-12-15 04:01:12] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0125.npz
+[2025-12-15 04:01:25] Epoch  130 | Train Acc:  95.90% | Test Acc:  94.50% | Loss: 0.2851 | Time: 2.66s
+[2025-12-15 04:01:25] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0130.npz
+[2025-12-15 04:01:39] Epoch  135 | Train Acc:  97.20% | Test Acc:  93.80% | Loss: 0.2780 | Time: 2.64s
+[2025-12-15 04:01:39] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0135.npz
+[2025-12-15 04:01:53] Epoch  140 | Train Acc:  95.30% | Test Acc:  94.80% | Loss: 0.2912 | Time: 2.91s
+[2025-12-15 04:01:53] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0140.npz
+[2025-12-15 04:02:08] Epoch  145 | Train Acc:  97.00% | Test Acc:  94.30% | Loss: 0.3040 | Time: 2.95s
+[2025-12-15 04:02:08] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0145.npz
+[2025-12-15 04:02:22] Epoch  150 | Train Acc:  95.10% | Test Acc:  92.50% | Loss: 0.3223 | Time: 3.07s
+[2025-12-15 04:02:22] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0150.npz
+[2025-12-15 04:02:24] Training plot saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\training_visualization\training_history_150.png
+[2025-12-15 04:02:38] Epoch  155 | Train Acc:  94.90% | Test Acc:  91.30% | Loss: 0.3346 | Time: 2.58s
+[2025-12-15 04:02:38] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0155.npz
+[2025-12-15 04:02:51] Epoch  160 | Train Acc:  95.50% | Test Acc:  92.70% | Loss: 0.3152 | Time: 2.61s
+[2025-12-15 04:02:51] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0160.npz
+[2025-12-15 04:03:07] Epoch  165 | Train Acc:  95.70% | Test Acc:  93.60% | Loss: 0.3319 | Time: 2.82s
+[2025-12-15 04:03:07] Checkpoint saved to C:\Users\kamle\.vscode\Nerual Network\engine\..\checkpoints\model_epoch_0165.npz
