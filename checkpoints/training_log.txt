@@ -1,0 +1,623 @@
+[2025-07-28 16:01:26] 
+======================================================================
+[2025-07-28 16:01:26] Starting Neural Network Training
+[2025-07-28 16:01:26] ======================================================================
+[2025-07-28 16:01:26] Training samples: 60,000
+[2025-07-28 16:01:26] Test samples: 10,000
+[2025-07-28 16:01:26] Network architecture: 784-128-64-10
+[2025-07-28 16:01:26] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:01:26] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:01:26] Batch norm: Enabled
+[2025-07-28 16:01:26] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:01:26] ----------------------------------------------------------------------
+[2025-07-28 16:01:26] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:01:26] ----------------------------------------------------------------------
+[2025-07-28 16:01:28]      1 |   77.80% |   79.90% (Best!) |   1.1s     | 00:00:01 | 58s
+[2025-07-28 16:01:29]      2 |   70.30% |   74.90%         |   1.1s     | 00:00:02 | 57s
+[2025-07-28 16:01:29] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:01:29] ERROR: Training failed!
+[2025-07-28 16:01:29] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:01:29] Error: list index out of range
+[2025-07-28 16:01:29] 
+Stack trace:
+[2025-07-28 16:01:29] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1234, in train_continuously
+    f"Loss: {loss_plot[-1]:.4f} | "
+             ~~~~~~~~~^^^^
+IndexError: list index out of range
+
+[2025-07-28 16:01:29] 
+======================================================================
+[2025-07-28 16:01:29] Training Summary
+[2025-07-28 16:01:29] ======================================================================
+[2025-07-28 16:01:29] Total training time: 00:00:02
+[2025-07-28 16:01:29] Total epochs completed: 2
+[2025-07-28 16:01:29] Best accuracy: 79.90%
+[2025-07-28 16:01:29] Final accuracy: 74.90%
+[2025-07-28 16:01:29] 
+Saving final model and visualizations...
+[2025-07-28 16:01:29] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:01:30] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:01:30] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-07-28 16:01:30] Sample predictions: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_visualization\final_predictions.png
+[2025-07-28 16:01:30] 
+Training completed successfully!
+[2025-07-28 16:06:17] 
+======================================================================
+[2025-07-28 16:06:17] Starting Neural Network Training
+[2025-07-28 16:06:17] ======================================================================
+[2025-07-28 16:06:17] Training samples: 60,000
+[2025-07-28 16:06:17] Test samples: 10,000
+[2025-07-28 16:06:17] Network architecture: 784-128-64-10
+[2025-07-28 16:06:17] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:06:17] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:06:17] Batch norm: Enabled
+[2025-07-28 16:06:17] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:06:17] ----------------------------------------------------------------------
+[2025-07-28 16:06:17] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:06:17] ----------------------------------------------------------------------
+[2025-07-28 16:06:19]      1 |   78.30% |   80.80% (Best!) |   1.1s     | 00:00:03 | 56s
+[2025-07-28 16:06:21]      2 |   64.00% |   67.70%         |   1.1s     | 00:00:05 | 54s
+[2025-07-28 16:06:21] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:06:21] ERROR: Training failed!
+[2025-07-28 16:06:21] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:06:21] Error: list index out of range
+[2025-07-28 16:06:21] 
+Stack trace:
+[2025-07-28 16:06:21] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1244, in train_continuously
+    f"Loss: {loss_plot[-1]:.4f} | "
+             ~~~~~~~~~^^^^
+IndexError: list index out of range
+
+[2025-07-28 16:06:21] 
+======================================================================
+[2025-07-28 16:06:21] Training Summary
+[2025-07-28 16:06:21] ======================================================================
+[2025-07-28 16:06:21] Total training time: 00:00:05
+[2025-07-28 16:06:21] Total epochs completed: 2
+[2025-07-28 16:06:21] Best accuracy: 80.80%
+[2025-07-28 16:06:21] Final accuracy: 67.70%
+[2025-07-28 16:06:21] 
+Saving final model and visualizations...
+[2025-07-28 16:06:21] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:06:22] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:06:22] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-07-28 16:06:22] Sample predictions: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_visualization\final_predictions.png
+[2025-07-28 16:06:22] 
+Training completed successfully!
+[2025-07-28 16:13:48] 
+======================================================================
+[2025-07-28 16:13:48] Starting Neural Network Training
+[2025-07-28 16:13:48] ======================================================================
+[2025-07-28 16:13:48] Training samples: 60,000
+[2025-07-28 16:13:48] Test samples: 10,000
+[2025-07-28 16:13:48] Network architecture: 784-128-64-10
+[2025-07-28 16:13:49] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:13:49] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:13:49] Batch norm: Enabled
+[2025-07-28 16:13:49] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:13:49] ----------------------------------------------------------------------
+[2025-07-28 16:13:49] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:13:49] ----------------------------------------------------------------------
+[2025-07-28 16:19:16] 
+======================================================================
+[2025-07-28 16:19:16] Starting Neural Network Training
+[2025-07-28 16:19:16] ======================================================================
+[2025-07-28 16:19:16] Training samples: 60,000
+[2025-07-28 16:19:16] Test samples: 10,000
+[2025-07-28 16:19:16] Network architecture: 784-128-64-10
+[2025-07-28 16:19:16] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:19:16] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:19:16] Batch norm: Enabled
+[2025-07-28 16:19:16] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:19:16] ----------------------------------------------------------------------
+[2025-07-28 16:19:16] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:19:16] ----------------------------------------------------------------------
+[2025-07-28 16:24:37] 
+======================================================================
+[2025-07-28 16:24:37] Starting Neural Network Training
+[2025-07-28 16:24:37] ======================================================================
+[2025-07-28 16:24:37] Training samples: 60,000
+[2025-07-28 16:24:37] Test samples: 10,000
+[2025-07-28 16:24:37] Network architecture: 784-128-64-10
+[2025-07-28 16:24:37] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:24:37] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:24:37] Batch norm: Enabled
+[2025-07-28 16:24:37] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:24:37] ----------------------------------------------------------------------
+[2025-07-28 16:24:37] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:24:37] ----------------------------------------------------------------------
+[2025-07-28 16:30:39] 
+======================================================================
+[2025-07-28 16:30:39] Starting Neural Network Training
+[2025-07-28 16:30:39] ======================================================================
+[2025-07-28 16:30:39] Training samples: 60,000
+[2025-07-28 16:30:39] Test samples: 10,000
+[2025-07-28 16:30:39] Network architecture: 784-128-64-10
+[2025-07-28 16:30:39] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:30:39] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:30:39] Batch norm: Enabled
+[2025-07-28 16:30:39] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:30:39] ----------------------------------------------------------------------
+[2025-07-28 16:30:39] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:30:39] ----------------------------------------------------------------------
+[2025-07-28 16:30:40]      1 |   74.00% |   74.20% (Best!) |   1.1s     | 00:00:02 | 57s
+[2025-07-28 16:30:41]      2 |   65.10% |   65.30%         |   1.1s     | 00:00:03 | 56s
+[2025-07-28 16:30:42]      3 |   56.00% |   59.60%         |   1.1s     | 00:00:04 | 55s
+[2025-07-28 16:30:44]      4 |   55.60% |   55.60%         |   1.1s     | 00:00:06 | 53s
+[2025-07-28 16:30:45]      5 |   55.30% |   56.30%         |   1.1s     | 00:00:07 | 52s
+[2025-07-28 16:30:45] Warning: Plot update error: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (5,) and arg 1 with shape (0,).
+[2025-07-28 16:30:45] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0005.npz
+[2025-07-28 16:30:45] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:30:45] ERROR: Training failed!
+[2025-07-28 16:30:45] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:30:45] Error: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (5,) and arg 1 with shape (0,).
+[2025-07-28 16:30:45] 
+Stack trace:
+[2025-07-28 16:30:45] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1315, in train_continuously
+    plt.savefig(plot_path, dpi=150, bbox_inches='tight', facecolor='white')
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\pyplot.py", line 1243, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\backend_bases.py", line 2155, in print_figure
+    self.figure.draw(renderer)
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\artist.py", line 94, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\figure.py", line 3257, in draw
+    mimage._draw_list_compositing_images(
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\image.py", line 134, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\axes\_base.py", line 3181, in draw
+    mimage._draw_list_compositing_images(
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\image.py", line 134, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\lines.py", line 752, in draw
+    self.recache()
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\lines.py", line 684, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kamle\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (5,) and arg 1 with shape (0,).
+
+[2025-07-28 16:30:45] 
+======================================================================
+[2025-07-28 16:30:45] Training Summary
+[2025-07-28 16:30:45] ======================================================================
+[2025-07-28 16:30:45] Total training time: 00:00:07
+[2025-07-28 16:30:45] Total epochs completed: 5
+[2025-07-28 16:30:45] Best accuracy: 74.20%
+[2025-07-28 16:30:45] Final accuracy: 56.30%
+[2025-07-28 16:30:45] 
+Saving final model and visualizations...
+[2025-07-28 16:30:46] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:30:46] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:30:46] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-07-28 16:30:46] Sample predictions: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_visualization\final_predictions.png
+[2025-07-28 16:30:46] 
+Training completed successfully!
+[2025-07-28 16:38:12] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0005.npz
+[2025-07-28 16:38:12] 
+======================================================================
+[2025-07-28 16:38:12] Starting Neural Network Training
+[2025-07-28 16:38:12] ======================================================================
+[2025-07-28 16:38:12] Training samples: 60,000
+[2025-07-28 16:38:12] Test samples: 10,000
+[2025-07-28 16:38:12] Network architecture: 784-128-64-10
+[2025-07-28 16:38:12] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:38:12] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:38:12] Batch norm: Enabled
+[2025-07-28 16:38:12] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:38:12] ----------------------------------------------------------------------
+[2025-07-28 16:38:12] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:38:12] ----------------------------------------------------------------------
+[2025-07-28 16:38:14]      6 |   50.50% |   54.40% (Best!) |   1.1s     | 00:00:02 | 57s
+[2025-07-28 16:38:15]      7 |   54.20% |   56.60% (Best!) |   1.1s     | 00:00:03 | 56s
+[2025-07-28 16:38:16]      8 |   51.70% |   53.70%         |   1.1s     | 00:00:04 | 55s
+[2025-07-28 16:38:17]      9 |   52.00% |   51.80%         |   1.1s     | 00:00:05 | 54s
+[2025-07-28 16:38:18]     10 |   51.90% |   54.60%         |   1.1s     | 00:00:07 | 52s
+[2025-07-28 16:38:19]     11 |   50.40% |   51.20%         |   1.1s     | 00:00:08 | 51s
+[2025-07-28 16:38:20] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0011.npz
+[2025-07-28 16:38:20] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:38:20] ERROR: Training failed!
+[2025-07-28 16:38:20] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:38:20] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-07-28 16:38:20] 
+Stack trace:
+[2025-07-28 16:38:20] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1336, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-07-28 16:38:20] 
+======================================================================
+[2025-07-28 16:38:20] Training Summary
+[2025-07-28 16:38:20] ======================================================================
+[2025-07-28 16:38:20] Total training time: 00:00:09
+[2025-07-28 16:38:20] Total epochs completed: 11
+[2025-07-28 16:38:20] Best accuracy: 74.20%
+[2025-07-28 16:38:20] Final accuracy: 51.20%
+[2025-07-28 16:38:20] 
+Saving final model and visualizations...
+[2025-07-28 16:38:20] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:38:21] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:38:21] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-07-28 16:38:21] Sample predictions: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_visualization\final_predictions.png
+[2025-07-28 16:38:21] 
+Training completed successfully!
+[2025-07-28 16:39:34] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0011.npz
+[2025-07-28 16:39:34] 
+======================================================================
+[2025-07-28 16:39:34] Starting Neural Network Training
+[2025-07-28 16:39:34] ======================================================================
+[2025-07-28 16:39:34] Training samples: 60,000
+[2025-07-28 16:39:34] Test samples: 10,000
+[2025-07-28 16:39:34] Network architecture: 784-128-64-10
+[2025-07-28 16:39:34] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:39:34] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:39:34] Batch norm: Enabled
+[2025-07-28 16:39:34] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:39:34] ----------------------------------------------------------------------
+[2025-07-28 16:39:34] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:39:34] ----------------------------------------------------------------------
+[2025-07-28 16:39:35]     12 |   51.00% |   54.00% (Best!) |   1.1s     | 00:00:02 | 57s
+[2025-07-28 16:39:36]     13 |   53.70% |   53.20%         |   1.1s     | 00:00:03 | 56s
+[2025-07-28 16:39:37]     14 |   54.70% |   55.30% (Best!) |   1.1s     | 00:00:04 | 55s
+[2025-07-28 16:39:38]     15 |   50.90% |   56.10% (Best!) |   1.1s     | 00:00:05 | 54s
+[2025-07-28 16:39:39]     16 |   50.50% |   52.30%         |   1.1s     | 00:00:06 | 53s
+[2025-07-28 16:39:40] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0016.npz
+[2025-07-28 16:39:40] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:39:40] ERROR: Training failed!
+[2025-07-28 16:39:40] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:39:40] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-07-28 16:39:40] 
+Stack trace:
+[2025-07-28 16:39:40] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1336, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-07-28 16:39:40] 
+======================================================================
+[2025-07-28 16:39:40] Training Summary
+[2025-07-28 16:39:40] ======================================================================
+[2025-07-28 16:39:40] Total training time: 00:00:07
+[2025-07-28 16:39:40] Total epochs completed: 16
+[2025-07-28 16:39:40] Best accuracy: 74.20%
+[2025-07-28 16:39:40] Final accuracy: 52.30%
+[2025-07-28 16:39:40] 
+Saving final model and visualizations...
+[2025-07-28 16:39:40] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:39:41] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:39:41] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-07-28 16:39:41] Sample predictions: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_visualization\final_predictions.png
+[2025-07-28 16:39:41] 
+Training completed successfully!
+[2025-07-28 16:40:41] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0016.npz
+[2025-07-28 16:40:41] 
+======================================================================
+[2025-07-28 16:40:41] Starting Neural Network Training
+[2025-07-28 16:40:41] ======================================================================
+[2025-07-28 16:40:41] Training samples: 60,000
+[2025-07-28 16:40:41] Test samples: 10,000
+[2025-07-28 16:40:41] Network architecture: 784-128-64-10
+[2025-07-28 16:40:41] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:40:41] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:40:41] Batch norm: Enabled
+[2025-07-28 16:40:41] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:40:41] ----------------------------------------------------------------------
+[2025-07-28 16:40:42] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:40:42] ----------------------------------------------------------------------
+[2025-07-28 16:40:43]     17 |   55.00% |   55.40% (Best!) |   1.1s     | 00:00:02 | 57s
+[2025-07-28 16:40:44]     18 |   53.10% |   56.60% (Best!) |   1.1s     | 00:00:03 | 56s
+[2025-07-28 16:40:45]     19 |   55.20% |   53.60%         |   1.1s     | 00:00:04 | 55s
+[2025-07-28 16:40:46]     20 |   51.70% |   56.60%         |   1.1s     | 00:00:06 | 53s
+[2025-07-28 16:40:47]     21 |   56.90% |   58.40% (Best!) |   1.1s     | 00:00:07 | 52s
+[2025-07-28 16:40:48] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0021.npz
+[2025-07-28 16:40:48] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:40:48] ERROR: Training failed!
+[2025-07-28 16:40:48] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:40:48] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-07-28 16:40:48] 
+Stack trace:
+[2025-07-28 16:40:48] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1336, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-07-28 16:40:48] 
+======================================================================
+[2025-07-28 16:40:48] Training Summary
+[2025-07-28 16:40:48] ======================================================================
+[2025-07-28 16:40:48] Total training time: 00:00:08
+[2025-07-28 16:40:48] Total epochs completed: 21
+[2025-07-28 16:40:48] Best accuracy: 74.20%
+[2025-07-28 16:40:48] Final accuracy: 58.40%
+[2025-07-28 16:40:48] 
+Saving final model and visualizations...
+[2025-07-28 16:40:48] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:40:49] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:40:49] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-07-28 16:40:49] Sample predictions: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_visualization\final_predictions.png
+[2025-07-28 16:40:49] 
+Training completed successfully!
+[2025-07-28 16:48:25] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0021.npz
+[2025-07-28 16:48:25] 
+======================================================================
+[2025-07-28 16:48:25] Starting Neural Network Training
+[2025-07-28 16:48:25] ======================================================================
+[2025-07-28 16:48:25] Training samples: 60,000
+[2025-07-28 16:48:25] Test samples: 10,000
+[2025-07-28 16:48:25] Network architecture: 784-128-64-10
+[2025-07-28 16:48:25] Learning rate: 0.001, Optimizer: adam
+[2025-07-28 16:48:25] Batch size: 128, Dropout: 0.2
+[2025-07-28 16:48:25] Batch norm: Enabled
+[2025-07-28 16:48:25] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-07-28 16:48:25] ----------------------------------------------------------------------
+[2025-07-28 16:48:25] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-07-28 16:48:25] ----------------------------------------------------------------------
+[2025-07-28 16:48:26]     22 |   54.40% |   56.70% (Best!) |   1.1s     | 00:00:02 | 57s
+[2025-07-28 16:48:27]     23 |   55.30% |   57.10% (Best!) |   1.1s     | 00:00:03 | 56s
+[2025-07-28 16:48:28]     24 |   56.00% |   58.30% (Best!) |   1.1s     | 00:00:04 | 55s
+[2025-07-28 16:48:30]     25 |   56.40% |   56.10%         |   1.1s     | 00:00:05 | 54s
+[2025-07-28 16:48:31]     26 |   50.20% |   58.80% (Best!) |   1.0s     | 00:00:06 | 53s
+[2025-07-28 16:48:31] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0026.npz
+[2025-07-28 16:48:32] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:48:32] ERROR: Training failed!
+[2025-07-28 16:48:32] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-07-28 16:48:32] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-07-28 16:48:32] 
+Stack trace:
+[2025-07-28 16:48:32] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1347, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-07-28 16:48:32] 
+======================================================================
+[2025-07-28 16:48:32] Training Summary
+[2025-07-28 16:48:32] ======================================================================
+[2025-07-28 16:48:32] Total training time: 00:00:07
+[2025-07-28 16:48:32] Total epochs completed: 26
+[2025-07-28 16:48:32] Best accuracy: 74.20%
+[2025-07-28 16:48:32] Final accuracy: 58.80%
+[2025-07-28 16:48:32] 
+Saving final model and visualizations...
+[2025-07-28 16:48:32] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:48:32] Warning: Could not save sample predictions: 'NeuralNetwork' object has no attribute 'visualize_predictions'
+[2025-07-28 16:48:32] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-07-28 16:48:32] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-07-28 16:48:32] 
+Training completed successfully!
+[2025-08-01 14:53:05] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0026.npz
+[2025-08-01 14:53:05] 
+======================================================================
+[2025-08-01 14:53:05] Starting Neural Network Training
+[2025-08-01 14:53:05] ======================================================================
+[2025-08-01 14:53:05] Training samples: 60,000
+[2025-08-01 14:53:05] Test samples: 10,000
+[2025-08-01 14:53:05] Network architecture: 784-128-64-10
+[2025-08-01 14:53:05] Learning rate: 0.001, Optimizer: adam
+[2025-08-01 14:53:05] Batch size: 128, Dropout: 0.2
+[2025-08-01 14:53:05] Batch norm: Enabled
+[2025-08-01 14:53:05] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-08-01 14:53:05] ----------------------------------------------------------------------
+[2025-08-01 14:53:05] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-08-01 14:53:05] ----------------------------------------------------------------------
+[2025-08-01 14:53:07]     27 |   52.40% |   54.50% (Best!) |   1.3s     | 00:00:05 | 54s
+[2025-08-01 14:53:08]     28 |   54.70% |   59.10% (Best!) |   1.1s     | 00:00:06 | 53s
+[2025-08-01 14:53:09]     29 |   50.40% |   55.50%         |   1.1s     | 00:00:07 | 52s
+[2025-08-01 14:53:10]     30 |   56.50% |   57.90%         |   1.1s     | 00:00:08 | 51s
+[2025-08-01 14:53:11]     31 |   51.30% |   55.80%         |   1.1s     | 00:00:09 | 50s
+[2025-08-01 14:53:12] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0031.npz
+[2025-08-01 14:53:12] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-08-01 14:53:12] ERROR: Training failed!
+[2025-08-01 14:53:12] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-08-01 14:53:12] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-08-01 14:53:12] 
+Stack trace:
+[2025-08-01 14:53:12] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1347, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-08-01 14:53:12] 
+======================================================================
+[2025-08-01 14:53:12] Training Summary
+[2025-08-01 14:53:12] ======================================================================
+[2025-08-01 14:53:12] Total training time: 00:00:10
+[2025-08-01 14:53:12] Total epochs completed: 31
+[2025-08-01 14:53:12] Best accuracy: 74.20%
+[2025-08-01 14:53:12] Final accuracy: 55.80%
+[2025-08-01 14:53:12] 
+Saving final model and visualizations...
+[2025-08-01 14:53:12] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-08-01 14:53:12] Warning: Could not save sample predictions: 'NeuralNetwork' object has no attribute 'visualize_predictions'
+[2025-08-01 14:53:12] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-08-01 14:53:12] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-08-01 14:53:12] 
+Training completed successfully!
+[2025-11-05 11:11:28] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0031.npz
+[2025-11-05 11:11:28] 
+======================================================================
+[2025-11-05 11:11:28] Starting Neural Network Training
+[2025-11-05 11:11:28] ======================================================================
+[2025-11-05 11:11:28] Training samples: 60,000
+[2025-11-05 11:11:28] Test samples: 10,000
+[2025-11-05 11:11:28] Network architecture: 784-128-64-10
+[2025-11-05 11:11:28] Learning rate: 0.001, Optimizer: adam
+[2025-11-05 11:11:28] Batch size: 128, Dropout: 0.2
+[2025-11-05 11:11:28] Batch norm: Enabled
+[2025-11-05 11:11:28] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-11-05 11:11:28] ----------------------------------------------------------------------
+[2025-11-05 11:11:28] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-11-05 11:11:28] ----------------------------------------------------------------------
+[2025-11-05 11:11:29]     32 |   54.00% |   59.70% (Best!) |   1.1s     | 00:00:03 | 56s
+[2025-11-05 11:11:31]     33 |   56.40% |   59.00%         |   1.1s     | 00:00:04 | 55s
+[2025-11-05 11:11:32]     34 |   54.10% |   57.80%         |   1.1s     | 00:00:06 | 53s
+[2025-11-05 11:11:34]     35 |   53.10% |   57.00%         |   1.1s     | 00:00:07 | 52s
+[2025-11-05 11:11:35]     36 |   56.30% |   57.40%         |   1.1s     | 00:00:09 | 50s
+[2025-11-05 11:11:35] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0036.npz
+[2025-11-05 11:11:37] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-11-05 11:11:37] ERROR: Training failed!
+[2025-11-05 11:11:37] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-11-05 11:11:37] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-11-05 11:11:37] 
+Stack trace:
+[2025-11-05 11:11:37] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1347, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-11-05 11:11:37] 
+======================================================================
+[2025-11-05 11:11:37] Training Summary
+[2025-11-05 11:11:37] ======================================================================
+[2025-11-05 11:11:37] Total training time: 00:00:10
+[2025-11-05 11:11:37] Total epochs completed: 36
+[2025-11-05 11:11:37] Best accuracy: 74.20%
+[2025-11-05 11:11:37] Final accuracy: 57.40%
+[2025-11-05 11:11:37] 
+Saving final model and visualizations...
+[2025-11-05 11:11:37] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-11-05 11:11:37] Warning: Could not save sample predictions: 'NeuralNetwork' object has no attribute 'visualize_predictions'
+[2025-11-05 11:11:37] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-11-05 11:11:37] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-11-05 11:11:37] 
+Training completed successfully!
+[2025-11-05 11:13:18] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0036.npz
+[2025-11-05 11:13:18] 
+======================================================================
+[2025-11-05 11:13:18] Starting Neural Network Training
+[2025-11-05 11:13:18] ======================================================================
+[2025-11-05 11:13:18] Training samples: 60,000
+[2025-11-05 11:13:18] Test samples: 10,000
+[2025-11-05 11:13:18] Network architecture: 784-128-64-10
+[2025-11-05 11:13:18] Learning rate: 0.001, Optimizer: adam
+[2025-11-05 11:13:18] Batch size: 128, Dropout: 0.2
+[2025-11-05 11:13:18] Batch norm: Enabled
+[2025-11-05 11:13:18] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-11-05 11:13:18] ----------------------------------------------------------------------
+[2025-11-05 11:13:18] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-11-05 11:13:18] ----------------------------------------------------------------------
+[2025-11-05 11:13:19]     37 |   57.10% |   55.90% (Best!) |   1.1s     | 00:00:03 | 56s
+[2025-11-05 11:13:20]     38 |   55.30% |   58.30% (Best!) |   1.1s     | 00:00:04 | 55s
+[2025-11-05 11:13:22]     39 |   56.90% |   56.80%         |   1.1s     | 00:00:06 | 53s
+[2025-11-05 11:13:23]     40 |   55.20% |   58.80% (Best!) |   1.1s     | 00:00:08 | 51s
+[2025-11-05 11:13:25]     41 |   54.70% |   54.10%         |   1.1s     | 00:00:09 | 50s
+[2025-11-05 11:13:26] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0041.npz
+[2025-11-05 11:13:28] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-11-05 11:13:28] ERROR: Training failed!
+[2025-11-05 11:13:28] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-11-05 11:13:28] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-11-05 11:13:28] 
+Stack trace:
+[2025-11-05 11:13:28] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1347, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-11-05 11:13:28] 
+======================================================================
+[2025-11-05 11:13:28] Training Summary
+[2025-11-05 11:13:28] ======================================================================
+[2025-11-05 11:13:28] Total training time: 00:00:12
+[2025-11-05 11:13:28] Total epochs completed: 41
+[2025-11-05 11:13:28] Best accuracy: 74.20%
+[2025-11-05 11:13:28] Final accuracy: 54.10%
+[2025-11-05 11:13:28] 
+Saving final model and visualizations...
+[2025-11-05 11:13:28] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-11-05 11:13:28] Warning: Could not save sample predictions: 'NeuralNetwork' object has no attribute 'visualize_predictions'
+[2025-11-05 11:13:28] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-11-05 11:13:28] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-11-05 11:13:28] 
+Training completed successfully!
+[2025-12-15 03:13:11] Found and loaded existing checkpoint: c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0041.npz
+[2025-12-15 03:13:11] 
+======================================================================
+[2025-12-15 03:13:11] Starting Neural Network Training
+[2025-12-15 03:13:11] ======================================================================
+[2025-12-15 03:13:11] Training samples: 60,000
+[2025-12-15 03:13:11] Test samples: 10,000
+[2025-12-15 03:13:11] Network architecture: 784-128-64-10
+[2025-12-15 03:13:11] Learning rate: 0.001, Optimizer: adam
+[2025-12-15 03:13:11] Batch size: 128, Dropout: 0.2
+[2025-12-15 03:13:11] Batch norm: Enabled
+[2025-12-15 03:13:11] Checkpoint directory: c:\Users\kamle\.vscode\Nerual Network\checkpoints
+[2025-12-15 03:13:11] ----------------------------------------------------------------------
+[2025-12-15 03:13:11] Epoch   | Train Acc | Test Acc  | Time/epoch | Elapsed   | Next Save
+[2025-12-15 03:13:11] ----------------------------------------------------------------------
+[2025-12-15 03:13:13]     42 |   56.40% |   53.70% (Best!) |   1.1s     | 00:00:04 | 55s
+[2025-12-15 03:13:14]     43 |   58.80% |   60.60% (Best!) |   1.1s     | 00:00:05 | 54s
+[2025-12-15 03:13:15]     44 |   57.00% |   55.80%         |   1.1s     | 00:00:06 | 53s
+[2025-12-15 03:13:16]     45 |   54.80% |   57.80%         |   1.1s     | 00:00:07 | 52s
+[2025-12-15 03:13:18]     46 |   55.60% |   55.70%         |   1.1s     | 00:00:09 | 50s
+[2025-12-15 03:13:18] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\model_epoch_0046.npz
+[2025-12-15 03:13:19] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-12-15 03:13:19] ERROR: Training failed!
+[2025-12-15 03:13:19] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2025-12-15 03:13:19] Error: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+[2025-12-15 03:13:19] 
+Stack trace:
+[2025-12-15 03:13:19] Traceback (most recent call last):
+  File "c:\Users\kamle\.vscode\Nerual Network\NeuralNetwork.py", line 1347, in train_continuously
+    nn.plot_training_history(show=False, save_path=plot_path, interactive=False)
+TypeError: NeuralNetwork.plot_training_history() got an unexpected keyword argument 'interactive'
+
+[2025-12-15 03:13:19] 
+======================================================================
+[2025-12-15 03:13:19] Training Summary
+[2025-12-15 03:13:19] ======================================================================
+[2025-12-15 03:13:19] Total training time: 00:00:10
+[2025-12-15 03:13:19] Total epochs completed: 46
+[2025-12-15 03:13:19] Best accuracy: 74.20%
+[2025-12-15 03:13:19] Final accuracy: 55.70%
+[2025-12-15 03:13:19] 
+Saving final model and visualizations...
+[2025-12-15 03:13:19] Model saved to c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-12-15 03:13:19] Warning: Could not save sample predictions: 'NeuralNetwork' object has no attribute 'visualize_predictions'
+[2025-12-15 03:13:19] 
+Model saved to: c:\Users\kamle\.vscode\Nerual Network\checkpoints\final_model.npz
+[2025-12-15 03:13:19] Training history plot: c:\Users\kamle\.vscode\Nerual Network\checkpoints\training_history_final.png
+[2025-12-15 03:13:19] 
+Training completed successfully!
